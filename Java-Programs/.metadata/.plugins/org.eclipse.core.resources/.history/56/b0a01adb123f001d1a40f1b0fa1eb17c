@@ -1,0 +1,18 @@
+package com.java.learning;
+
+interface A
+{
+	void ride();
+}
+public class B implements A
+{
+	public void ride()
+	{
+		System.out.println("hello mphasis!");
+	}
+}
+public class LambdaExpressions
+{
+	
+}
+

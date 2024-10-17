@@ -1,0 +1,17 @@
+//Runnable Interface
+
+package com.java.MyThreads;
+
+public class MyThread1 implements Runnable{
+	
+	public void run()
+	{
+		System.out.println("thread is running");
+	}
+	
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

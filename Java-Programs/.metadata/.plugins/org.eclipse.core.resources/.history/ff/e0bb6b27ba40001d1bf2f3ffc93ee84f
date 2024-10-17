@@ -1,0 +1,24 @@
+package com.java.lists;
+
+import java.util.*;
+
+import java.util.Iterator;
+
+public class ArrayList {
+	
+	public static void main(String[] args)
+	{
+		ArrayList list=new ArrayList();
+		
+		list.add("sushanth");
+		list.add("sumanth");
+		list.add("sanjana");
+		list.add("surya");
+		list.add("suraj");
+		list.add("sunil");
+		
+		Iterator itr=list.iterator();
+	}
+	
+
+}
